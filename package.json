@@ -6,7 +6,7 @@
     "test": "tests"
   },
   "scripts": {
-    "api-tests-production": "newman run tests/Jsonplaceholder.com.postman_collection.json"
+    "api-tests-production": "node newman run tests/Jsonplaceholder.com.postman_collection.json"
   },
   "author": "Valentin Despa",
   "dependencies": {
